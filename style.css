@@ -1,0 +1,222 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar Styling */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header .logo h1 {
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: rgb(217, 148, 20);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Hero Section */
+  .home1 {
+    background-image: url("C:\Users\gafoo\OneDrive\Attachments\Desktop\download.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(95, 9, 214);
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .home2 {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .home2 h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-color: red;
+  }
+  
+  .home2 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .home2.btn {
+    padding: 10px 20px;
+    background-color: #c58319;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    input-security: button;
+  }
+  
+  .home2.btn:hover {
+    background-color: #e67d2274;
+  }
+  
+  /*products section*/
+  .products {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .products h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .product1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .card .btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .card .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* About Section */
+  .about {
+    text-align: center;
+    background-color: red;
+    padding: 50px 20px;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about h4 {
+    font-size: 18px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #e8e8e8;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact label {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    padding: 12px 25px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .contact button:hover {
+    background-color: #e67e22;
+  }
+  
+  .gafoor span {
+    color: rgb(54, 147, 10);
+    font-size: 18px;
+  }
+  
